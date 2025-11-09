@@ -1,0 +1,22 @@
+.main-container{
+    display: flex; /* Makes the container a flex container */
+    justify-content: center; /* Horizontally centers the items */
+    align-items: center; /* Vertically centers the items */
+    height: 100vh; /* Example: make container take full viewport height */
+    width: 100vw; /*Example: make container take full viewport width */
+    background-color: #2d545e;
+    text-align: center; 
+     position: relative; 
+}
+.centered-item {
+  /* Add styling for your centered item */
+    background-color: #e1b382;
+    padding: 20px;
+    margin-top: 10%;
+}
+.displayVal{
+  color: #e1b382;
+  display: inline;
+  position: absolute;
+  font-size: 40px;
+}
